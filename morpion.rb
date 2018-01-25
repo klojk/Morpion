@@ -75,55 +75,7 @@ class Game # on définit la classe game-pour le tour de jeu, en lien avec le boa
 
 	 		end
 			
-=begin 
-	9 instances 9 cases
 
-  def self.actions_possibles(monde)
-    puts "ACTIONS POSSIBLES :"
-
-    puts "0 - "
-    puts "1 - "
-
-      i = 2
-      monde.ennemis.each do |ennemi|
-        puts "#{i} - Attaquer #{ennemi.info}"
-        i = i + 1
-      end
-      puts "99 - Quitter"
-    end
-
-    def self.est_fini(joueur, monde)
-
-	si victoire = V 
-	print " Victoire! Fin du jeu"
-	
-	si matchnul = MN 
-	print "Egalite! Fin du jeu"
-=end
-
-
-
-
-
-
-
-
-
-
-end
-
-
-
-Game.new 
-
-
-=begin
-val = 2
-arr = ["elise", 25, 2]
-arr.collect! do |nom|
-	nom = nom.capitalize
-end
-=end
 
 
 
